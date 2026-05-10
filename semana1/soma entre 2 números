@@ -1,0 +1,23 @@
+Algoritmo "soma"
+// Disciplina   : [Algoritmos e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Aula 3 – Comando de Entrada e Operadores
+// Autor(a)    : Edson Bello
+// Data atual  : 10/05/2026
+Var
+// Seção de Declarações das variáveis 
+    nome: caractere
+    N1, N2, S: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    escreva ("Digite seu nome: ")
+    leia (nome)
+    escreval ("Muito prazer, ", nome)
+    escreval ("Informe um número: ")
+    leia (N1)
+    escreval ("Informe outro número: ")
+    leia (N2)
+    s <- N1 + N2
+    escreva ("A soma desses dois números é: ", S)
+
+Fimalgoritmo
