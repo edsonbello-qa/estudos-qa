@@ -1,0 +1,21 @@
+algoritmo "média"
+// Disciplina   : [Algoritmos e Lógica de Programação]
+// Professor   : Gustavo Guanabara
+// Descrição   : Aula 3 – Comando de Entrada e Operadores
+// Autor(a)    : Edson Bello
+// Data atual  : 10/05/2026
+
+var
+   n1, n2: inteiro
+   m: real
+
+inicio
+
+    escreva ("informe um número: ")
+    leia (n1)
+    escreva ("informe outro número: ")
+    leia (n2)
+    m <- (n1 + n2)/2
+    escreva ("A média entre ", n1, " e ", n2, " é igual a: ", m)
+
+fimalgoritmo
