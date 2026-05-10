@@ -1,0 +1,23 @@
+algoritmo "imc"
+var
+
+   peso, altura, imc: real
+inicio
+
+      escreval ("Bem vindo a calculadora de IMC!")
+      escreva ("Para começar digite seu peso em Kg: ")
+      leia (peso)
+      Escreva ("Agora digite a sua altura em metros: ")
+      leia (altura)
+      imc <- peso / (altura * altura)
+      escreval ("O IMC é: ", imc)
+      escreval()
+      escreval ("O resultado indica o estado nutricional:")
+      escreval()
+      escreval ("Abaixo de (18,5): Abaixo do peso.")
+      escreval ("(18,5) a (24,9): Peso normal.")
+      escreval ("(25,0) a (29,9): Sobrepeso.")
+      escreval ("(30,0) a (34,9): Obesidade Grau I.")
+      escreval ("(35,0) a (39,9): Obesidade Grau II.")
+      escreval ("(40) ou mais: Obesidade Grau III.")
+fimalgoritmo
